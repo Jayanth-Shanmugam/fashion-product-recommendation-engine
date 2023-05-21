@@ -27,6 +27,7 @@ Le, Q. V., & Mikolov, T. (2014). Distributed Representations of Sentences and Do
 
 # Model Deployment
 The model is deployed to Google Cloud Functions. The model artifacts such as the trained `.model` file and the dataset are stored in a Google Cloud Storage bucket. Inside the function, the model and the dataset are accessed from the bucket to serve the rankings. The model is deployed to this url https://get-ranks-mwmiuw55ra-el.a.run.app. To get the rankings, send a POST request to the url with a json object having the product description with the key 'qstring'. The function returns a json object with the top 10 similar product urls.
+To deploy the model, create a Google Cloud Storage bucket and upload the final shuffled dataset `.csv` file, the saved `.model` file, and the generated `.model.dv.npy` file to it. Once the bucket has been created, instantiate a Google Cloud Function with the `cloud_func_model.py` and configure the instance to have atleast 2GB memory. Make sure to edit the `cloud_func_model.py` and change the respective file names and bucket name
 
 # References
 [1] Manish Mathias. (2022). Myntra Fashion[Online]. Available:
