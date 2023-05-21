@@ -31,6 +31,8 @@ The model is deployed to Google Cloud Functions. The model artifacts such as the
 # References
 [1] Manish Mathias. (2022). Myntra Fashion[Online]. Available:
     https://www.kaggle.com/datasets/manishmathias/myntra-fashion-dataset
+    
 [2] Manish Mathias. (2022). Ajio Fashion Clothing[Online]. Available:
     https://www.kaggle.com/datasets/manishmathias/ajio-clothing-fashion
+    
 [3] Le, Q. V., & Mikolov, T. (2014). Distributed Representations of Sentences and Documents. ArXiv. /abs/1405.4053   
