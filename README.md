@@ -1,4 +1,4 @@
-# Mercor Vetting Project: Product Similarity Ranking
+# Product Similarity Ranking and Recommendation
 The aim of this project is to create a machine learning model that takes a product description as input and returns the top-n similar product links. The dataset for this project was gathered from public datasets available on Kaggle. For training the model, the Doc2Vec model available in the gensim library was used. And finally the model is served as a Google Cloud Function.
 
 # Setting Up The Execution Environment
